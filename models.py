@@ -8,7 +8,7 @@ from sklearn.metrics import roc_curve, auc, confusion_matrix, classification_rep
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 from sklearn.model_selection import learning_curve, SelectKBest, mutual_info_regression
-
+from sklearn.ensemble import RandomForestRegressor
 import warnings
 warnings.filterwarnings('ignore')
 
